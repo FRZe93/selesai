@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sport Car Toyota</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #d32f2f;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .car-card {
+      background-color: #1c1c1c;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
+    }
+
+    .car-card:hover {
+      transform: scale(1.02);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .car-card .info {
+      padding: 15px;
+    }
+
+    .car-card h2 {
+      margin: 0 0 10px;
+      font-size: 1.4em;
+      color: #f44336;
+    }
+
+    .car-card p {
+      margin: 0;
+      font-size: 0.95em;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mobil Sport Toyota</h1>
+    <p>Pilihan terbaik dari Toyota Sport Series</p>
+  </header>
+
+  <main class="container">
+    <div class="car-card">
+      <img src="https://www.toyota.com/imgix/responsive/images/mlp/colorizer/2022/supra/3MU/1.png" alt="Toyota Supra GR">
+      <div class="info">
+        <h2>Toyota GR Supra</h2>
+        <p>Sport car legendaris dengan performa tinggi, desain agresif, dan turbocharged engine.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://cdn.motor1.com/images/mgl/J2NwR/s1/toyota-gt86-final-edition.jpg" alt="Toyota GT86">
+      <div class="info">
+        <h2>Toyota GT86</h2>
+        <p>Coupe ringan dan lincah yang menawarkan pengalaman berkendara sporty dan responsif.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://cdn.motor1.com/images/mgl/MmXAo/s1/toyota-gr-yaris.jpg" alt="Toyota GR Yaris">
+      <div class="info">
+        <h2>Toyota GR Yaris</h2>
+        <p>Hatchback kecil bertenaga tinggi, didesain untuk reli dan jalan raya dengan AWD system.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://i.ytimg.com/vi/_WWe1Q8SOGY/maxresdefault.jpg" alt="Toyota GR Corolla">
+      <div class="info">
+        <h2>Toyota GR Corolla</h2>
+        <p>Varian Corolla yang ditingkatkan untuk performa tinggi, mesin turbo 3 silinder, AWD dan agresif styling.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sport Toyota Showcase. All rights reserved.</p>
+  </footer>
+</body>
+</html>

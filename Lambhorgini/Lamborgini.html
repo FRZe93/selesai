@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamborghini Sport Cars</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+    }
+
+    header {
+      background-color: #d4af37;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #000;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .car-card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease;
+    }
+
+    .car-card:hover {
+      transform: scale(1.03);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .car-card .info {
+      padding: 15px;
+    }
+
+    .car-card h2 {
+      margin: 0 0 10px;
+      font-size: 1.4em;
+      color: #d4af37;
+    }
+
+    .car-card p {
+      margin: 0;
+      color: #ccc;
+      font-size: 0.95em;
+    }
+
+    footer {
+      background-color: #111;
+      padding: 15px;
+      text-align: center;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lamborghini Sport Cars</h1>
+    <p>Supercar Italia berperforma tinggi dan desain agresif</p>
+  </header>
+
+  <main class="container">
+    <div class="car-card">
+      <img src="https://cdn.motor1.com/images/mgl/lrz9g/s1/lamborghini-revuelto.jpg" alt="Lamborghini Revuelto">
+      <div class="info">
+        <h2>Revuelto</h2>
+        <p>Supercar plug-in hybrid terbaru dengan teknologi dan tenaga luar biasa.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://cdn.motor1.com/images/mgl/mrz9g/s1/lamborghini-aventador.jpg" alt="Lamborghini Aventador">
+      <div class="info">
+        <h2>Aventador</h2>
+        <p>Ikon V12 Lamborghini dengan performa brutal dan desain tajam.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://cdn.motor1.com/images/mgl/K99Qg/s1/lamborghini-huracan.jpg" alt="Lamborghini Huracan">
+      <div class="info">
+        <h2>Huracán</h2>
+        <p>V10 sportscar dengan handling presisi dan gaya khas Lamborghini.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://cdn.motor1.com/images/mgl/BEZQg/s1/lamborghini-sian.jpg" alt="Lamborghini Sian">
+      <div class="info">
+        <h2>Sián</h2>
+        <p>Lamborghini hybrid pertama dengan teknologi supercapacitor dan desain ekstrem.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lamborghini Gallery. All rights reserved.</p>
+  </footer>
+</body>
+</html>

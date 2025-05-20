@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobil Porsche</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3em;
+      color: rgb(183, 28, 255);
+    }
+
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .car-card {
+      background: #222;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .car-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .car-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .car-card .car-info {
+      padding: 15px;
+    }
+
+    .car-card h2 {
+      color: rgb(183, 28, 255);
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jenis-Jenis Mobil Porsche</h1>
+  </header>
+
+  <main class="car-grid">
+    <div class="car-card">
+      <img src="https://www.porsche.com/filestore/image/multimedia/none/992-carrera-modelimage-sideshot/model/0b85f5f2-7d38-11eb-80d7-005056bbdc38/porsche-model.png" alt="Porsche 911">
+      <div class="car-info">
+        <h2>Porsche 911</h2>
+        <p>Mobil sport ikonik dengan desain klasik dan performa tinggi.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://files.porsche.com/filestore/image/multimedia/none/j1-taycan-modelimage-sideshot/model/181b0426-c1df-11ea-80c8-005056bbdc38/porsche-model.png" alt="Porsche Taycan">
+      <div class="car-info">
+        <h2>Porsche Taycan</h2>
+        <p>Mobil listrik performa tinggi dengan teknologi canggih.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://files.porsche.com/filestore/image/multimedia/none/e3-modelimage-sideshot/model/b3f5d768-f146-11ea-80cf-005056bbdc38/porsche-model.png" alt="Porsche Cayenne">
+      <div class="car-info">
+        <h2>Porsche Cayenne</h2>
+        <p>SUV mewah dengan kenyamanan dan tenaga luar biasa.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://files.porsche.com/filestore/image/multimedia/none/982-c718-modelimage-sideshot/model/ae5780aa-3533-11ec-80e6-005056bbdc38/porsche-model.png" alt="Porsche 718 Cayman">
+      <div class="car-info">
+        <h2>Porsche 718 Cayman</h2>
+        <p>Coupe dua kursi dengan kelincahan dan keseimbangan yang luar biasa.</p>
+      </div>
+    </div>
+
+    <div class="car-card">
+      <img src="https://files.porsche.com/filestore/image/multimedia/none/g2-ii-modelimage-sideshot/model/99f8ab0a-ea7d-11eb-80d9-005056bbdc38/porsche-model.png" alt="Porsche Panamera">
+      <div class="car-info">
+        <h2>Porsche Panamera</h2>
+        <p>Sport sedan dengan kemewahan dan performa yang seimbang.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
